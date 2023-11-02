@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const pi = Math.PI
+        const phi = (1 + Math.sqrt(5)) / 2; //phi: the golden ratio
+
+        // for (let i = 0; i <= 10; i++) {
+        //     if (i < Math.PI){
+        //         if (i < Math.PI) {
+        //             console.log("below");
+        //             console.log("inside i: " + i);
+        //         } else {
+        //             console.log("above")
+        //         }
+        //         }
+        //     }
+
+        
+        for (let i = 0; i <= 10; i++) { 
+            // more computationally efficient: recycles a constant integer instead of calculating a function everytime.
+                if (i < pi) {
+                    console.log("below");
+                    console.log("inside i: " + i);
+                } else {
+                    console.log("above")
+                }
+                }
+            
+// added to v02 instead of making new file
+
+
+        }
+
+        // a for loop has 1: an initialization, 2: a termination condition, 3: an incremental statement.
+        // an iteration is the repatition, a for loop is the thing that carries it out.
+        for (let i = 0; i <=10; i= i +1) {
+            console.log("inside i: " + i)
+        }
+
+        console.log("outside i: " + i)
+
+        // the let symbol
+        // declares a variable that has a local scope
+        // local scope: means that variable can only be used within a code block.
+
+        
+        for (let i = 0; i <=10; i= i +1) {
+            console.log("inside i: " + i)
+        }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
